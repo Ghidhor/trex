@@ -168,7 +168,7 @@ obstaclesGroup.destroyEach();
 
 function spawnObstacles(){
  if (frameCount % 60 === 0){
-   var obstacle = createSprite(600,displayHeight - 30,10,40);
+   var obstacle = createSprite(600,Math.round(random(0,300),10,40);
    obstacle.velocityX = -(6 + score/100);
    
     //generate random obstacles

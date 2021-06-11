@@ -80,7 +80,7 @@ createCanvas(displayWidth,displayHeight);
 function draw() {
   
   background(180);
-  //displaying score
+  //displaying sco
   text("Score: "+ score, windowWidth - 100,windowHeight - 400);
   
   
